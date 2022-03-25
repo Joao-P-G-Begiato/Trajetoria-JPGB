@@ -1,0 +1,66 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    color:#ffffff;
+    background-image: url(https://img.freepik.com/vetores-gratis/circulo-de-tecnologia-e-fundo-azul-tecnologia_78072-468.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin: 20px;
+    padding: 3px 3px 5px 30px; 
+    text-align: center;
+    align-content: center;
+    }
+
+h1{
+    color: #1ffafa;
+}
+
+ul {
+    color:#ffffff;
+    align-content: center;
+}
+img {
+    border: 3px; border-style: solid; border-color: #5D6FB3
+}
+
+figcaption{
+    color: #ffffff;
+}
+
+h3{
+    color: #ffffff;
+    Margin:1px 400px 2px 400px ;
+    border:3px; border-style:solid ; border-color:#5D6FB3;
+    border-radius: 20px;
+    padding: 2px 5px 2px 20px;
+}
+
+.lista{ 
+    color:#ffffff;;
+    Margin:1px 335px 2px 335px ;
+    border:3px; border-style:solid ; border-color:#5D6FB3;
+    border-radius: 20px;
+    padding: 2px 5px 2px 20px;
+}
+
+.obj{ 
+    Margin:1px 480px 2px 480px ;
+    border:3px; border-style:solid ; border-color:#5D6FB3;
+    border-radius: 20px;
+    padding: 2px 5px 2px 20px;
+}
+
+.frase{
+    font-size: 120%;
+}
+
+p{
+    Margin: 5px 5px 5px 50px
+}
+
+div{
+    text-align: left;
+    Margin:1px 335px 2px 335px ;
+    border:3px; border-style:solid ; border-color:#5D6FB3;
+    border-radius: 20px;
+    padding: 2px 5px 2px 20px;
+}
