@@ -6,9 +6,25 @@ body{
     background-size: cover;
     margin: 20px;
     padding: 3px 3px 5px 30px; 
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
     }
+
+div{
+    background-color: rgba(0, 0, 255, 0.36);
+    border-radius: 50px;
+    padding: 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 h1{
     color: #1ffafa;
@@ -17,6 +33,7 @@ h1{
 ul {
     color:#ffffff;
     align-content: center;
+    width: 80%;
 }
 img {
     border: 3px; border-style: solid; border-color: #5D6FB3
@@ -28,25 +45,18 @@ figcaption{
 
 h3{
     color: #ffffff;
-    Margin:1px 400px 2px 400px ;
     border:3px; border-style:solid ; border-color:#5D6FB3;
     border-radius: 20px;
-    padding: 2px 5px 2px 20px;
+    width: 40vw;
+    min-width: 300px;
 }
 
 .lista{ 
     color:#ffffff;;
-    Margin:1px 335px 2px 335px ;
-    border:3px; border-style:solid ; border-color:#5D6FB3;
+    width: inherit;
+    border: none;
     border-radius: 20px;
-    padding: 2px 5px 2px 20px;
-}
-
-.obj{ 
-    Margin:1px 480px 2px 480px ;
-    border:3px; border-style:solid ; border-color:#5D6FB3;
-    border-radius: 20px;
-    padding: 2px 5px 2px 20px;
+    margin: 5px;
 }
 
 .frase{
@@ -57,10 +67,22 @@ p{
     Margin: 5px 5px 5px 50px
 }
 
-div{
+section{
     text-align: left;
-    Margin:1px 335px 2px 335px ;
+    width: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
     border:3px; border-style:solid ; border-color:#5D6FB3;
     border-radius: 20px;
     padding: 2px 5px 2px 20px;
+}
+
+li{
+    width: auto;
+    text-align: initial;
+}
+li::marker{
+    content: "-  ";
+    margin: 100px;
 }
